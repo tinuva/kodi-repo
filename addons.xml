@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  <addon id="plugin.audio.au.radio" name="RADIO AU" provider-name="MattHuisman.nz" version="0.5.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="audio">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Easily listen to all your favourite AU radio stations. 
+You can change the region (default = Sydney) in the addon settings.</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/08/au-radio-kodi-add-on.html</website>
+    <news>0.5.1 #39b2051 (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.audio.nz.radio" name="RADIO NZ" provider-name="MattHuisman.nz" version="0.6.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="audio">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Easily listen to all your favourite NZ radio stations</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/05/nz-radio-kodi-add-on.html</website>
+    <news>0.6.1 #2f14c10 (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.program.noobs.companion" name="NOOBS Companion" provider-name="MattHuisman.nz" version="0.5.2">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <description lang="en">Allows easy booting between other installed NOOBS / PINN systems (Raspberry Pi Only)</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/02/kodi-noobs-companion-add-on.html</website>
+    <news>0.5.2 #c853663 (07/08/2018)
+- Add new 'Show Boot Commands' context item</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.au.freeview" name="IPTV AU" provider-name="MattHuisman.nz" version="0.7.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch all your favourite AU IPTV streams!
+You can change the region (default = Sydney) in the addon settings.</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/08/au-freeview-kodi-add-on.html</website>
+    <news>0.7.1 #9989c50 (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.fanpass" name="Fan Pass" provider-name="MattHuisman.nz" version="0.7.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">FAN PASS is your all access, full contact, dream pass to live sport online. Subscription required.</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2018/06/fan-pass-kodi-add-on.html</website>
+    <news>0.7.1 #9057cda (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.5.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">HEIHEI is a bright and cheerful streaming platform filled exclusively with safe, ad-free, age-appropriate content for children.</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2018/05/heihei-kodi-add-on.html</website>
+    <news>0.5.1 #d8f7910 (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.lightbox" name="Lightbox" provider-name="MattHuisman.nz" version="0.3.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch your favourite shows from Lightbox.
+Lightbox subscription required.</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2018/06/lightbox-kodi-add-on.html</website>
+    <news>0.3.1 #f7bfc20 (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.nz.freeview" name="IPTV NZ" provider-name="MattHuisman.nz" version="0.7.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Easily watch your favourite NZ IPTV streams</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/06/nz-freeview-kodi-add-on.html</website>
+    <news>0.7.1 #97d21ce (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.10.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch Rugby from RugbyPass.com. RugbyPass.com subscription required.</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
+    <news>0.10.0 #1406550 (08/08/2018)
+- Fix service</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.4.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch your favourite content from Showmax (South Africa). Subscription required.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
+    <news>0.4.0 #95a5120 (16/08/2018)
+- Add search. Clean up catalogue API method.</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.1.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch live channels from SKY GO (New Zealand). Subscription required.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2018/08/sky-go-kodi-add-on.html</website>
+    <news>0.1.0 #93f016d (08/08/2018)
+- Clean</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.4.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch the latest TV On Demand episodes of all your favourite shows from Three with ThreeNow</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/03/threenow-kodi-add-on.html</website>
+    <news>0.4.1 #c090de0 (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.4.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch your favourite shows from TVNZ OnDemand</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/02/kodi-tvnz-ondemand-add-on.html</website>
+    <news>0.4.1 #0550243 (06/08/2018)
+- Add submodule</news>
+  </extension>
+</addon>
+  <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.2.1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Online Courses - Learn Anything, On Your Schedule</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2018/08/udemy-kodi-add-on.html</website>
+    <news>0.2.1 #2c30ccd (06/08/2018)
+- Fix list bug. Fix quality select bug</news>
+  </extension>
+</addon>
+  <addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.4.1">
+  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by MattHuisman.nz</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
+    <news>0.4.1 #605c97a (06/08/2018)
+- Move back to master</news>
+  </extension>
+</addon>
+  <addon id="script.module.matthuisman" name="(OLD) MattHuisman.nz Common" provider-name="MattHuisman.nz" version="0.18.1">
+  <requires>
+  </requires>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">(OLD) Remove me!</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz</website>
+    <news>0.18.1 #52ae815 (06/08/2018)
+- Add OLD to name
+- Depreciate old common module
+- .
+- Missing log
+- Only show clear cache context when cache enabled</news>
+  </extension>
+</addon>
+  <addon id="service.gpio.monitor" name="GPIO Monitor" provider-name="MattHuisman.nz" version="0.2.2">
+  <requires>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <description lang="en">Monitors a GPIO pin and runs a KODI function (eg. Shutdown) when it changes (Raspberry Pi Only)</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2016/11/kodi-gpio-monitor-service-addon.html</website>
+    <news>0.2.2 #323decc (06/08/2018)
+- Remove dep</news>
+  </extension>
+</addon>
+  <addon id="service.time.monitor" name="Time Change Monitor" provider-name="MattHuisman.nz" version="0.2.2">
+  <requires>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Runs a command (default=Reboot) when there is a time change in KODI.
+Useful for rebooting KODI when there is a change to Daylight Savings Time (which fixes EPG times).
+    </description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2018/04/time-change-monitor-kodi-add-on.html</website>
+    <news>0.2.2 #3dde5f7 (06/08/2018)
+- Remove dep</news>
+  </extension>
+</addon>
+</addons>

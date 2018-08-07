@@ -1,0 +1,51 @@
+[submodule "repository.matthuisman/src"]
+	path = repository.matthuisman/src
+	url = https://github.com/matthuisman/repository.matthuisman
+[submodule "plugin.audio.au.radio/src"]
+	path = plugin.audio.au.radio/src
+	url = https://github.com/matthuisman/plugin.audio.au.radio
+[submodule "plugin.audio.nz.radio/src"]
+	path = plugin.audio.nz.radio/src
+	url = https://github.com/matthuisman/plugin.audio.nz.radio
+[submodule "plugin.program.noobs.companion/src"]
+	path = plugin.program.noobs.companion/src
+	url = https://github.com/matthuisman/plugin.program.noobs.companion
+[submodule "plugin.video.heihei/src"]
+	path = plugin.video.heihei/src
+	url = https://github.com/matthuisman/plugin.video.heihei
+[submodule "plugin.video.lightbox/src"]
+	path = plugin.video.lightbox/src
+	url = https://github.com/matthuisman/plugin.video.lightbox
+[submodule "plugin.video.rugbypass/src"]
+	path = plugin.video.rugbypass/src
+	url = https://github.com/matthuisman/plugin.video.rugbypass
+[submodule "service.gpio.monitor/src"]
+	path = service.gpio.monitor/src
+	url = https://github.com/matthuisman/service.gpio.monitor
+[submodule "service.time.monitor/src"]
+	path = service.time.monitor/src
+	url = https://github.com/matthuisman/service.time.monitor
+[submodule "plugin.video.nz.freeview/src"]
+	path = plugin.video.nz.freeview/src
+	url = https://github.com/matthuisman/plugin.video.nz.freeview
+[submodule "plugin.video.au.freeview/src"]
+	path = plugin.video.au.freeview/src
+	url = https://github.com/matthuisman/plugin.video.au.freeview
+[submodule "plugin.video.fanpass/src"]
+	path = plugin.video.fanpass/src
+	url = https://github.com/matthuisman/plugin.video.fanpass
+[submodule "plugin.video.three.now/src"]
+	path = plugin.video.three.now/src
+	url = https://github.com/matthuisman/plugin.video.three.now
+[submodule "plugin.video.tvnz.ondemand/src"]
+	path = plugin.video.tvnz.ondemand/src
+	url = https://github.com/matthuisman/plugin.video.tvnz.ondemand
+[submodule "plugin.video.udemy/src"]
+	path = plugin.video.udemy/src
+	url = https://github.com/matthuisman/plugin.video.udemy
+[submodule "plugin.video.skygo.nz/src"]
+	path = plugin.video.skygo.nz/src
+	url = https://github.com/matthuisman/plugin.video.skygo.nz
+[submodule "plugin.video.showmax/src"]
+	path = plugin.video.showmax/src
+	url = https://github.com/matthuisman/plugin.video.showmax/

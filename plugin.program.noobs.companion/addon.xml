@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.noobs.companion" name="NOOBS Companion" provider-name="MattHuisman.nz" version="0.5.2">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <description lang="en">Allows easy booting between other installed NOOBS / PINN systems (Raspberry Pi Only)</description>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/02/kodi-noobs-companion-add-on.html</website>
+    <news>0.5.2 #c853663 (07/08/2018)
+- Add new 'Show Boot Commands' context item</news>
+  </extension>
+</addon>
