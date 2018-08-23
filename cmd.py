@@ -223,7 +223,8 @@ def do_cmd(cmd):
 
     elif cmd == 'push':
         print("\n** Pushing Updates... **")
-        check_output(['git', 'commit', '--amend', '-m', 'Update'])
+        check_output(['git', 'reset', '--soft', 'HEAD~1'])
+        check_output(['git', 'commit', '-m', 'Update'])
         check_output(['git', 'push', 'origin', '-f'])
         print("\n** DONE **")
 
@@ -242,4 +243,4 @@ def do_cmd(cmd):
 try:
     do_cmd(sys.argv[1])
 except Exception as e:
-    print(str(e))
+    raise

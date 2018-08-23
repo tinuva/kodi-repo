@@ -69,7 +69,7 @@ You can change the region (default = Sydney) in the addon settings.</description
 - Add submodule</news>
   </extension>
 </addon>
-  <addon id="plugin.video.fanpass" name="Fan Pass" provider-name="MattHuisman.nz" version="0.7.1">
+  <addon id="plugin.video.fanpass" name="Fan Pass" provider-name="MattHuisman.nz" version="0.8.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -79,11 +79,12 @@ You can change the region (default = Sydney) in the addon settings.</description
   </extension>
   <extension point="xbmc.addon.metadata">
     <description lang="en">FAN PASS is your all access, full contact, dream pass to live sport online. Subscription required.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/06/fan-pass-kodi-add-on.html</website>
-    <news>0.7.1 #9057cda (06/08/2018)
-- Add submodule</news>
+    <news>0.8.0 #f2e9b98 (22/08/2018)
+- Migrate to new common</news>
   </extension>
 </addon>
   <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.5.1">
@@ -156,7 +157,7 @@ Lightbox subscription required.</description>
 - Fix service</news>
   </extension>
 </addon>
-  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.4.0">
+  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.6.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -171,11 +172,11 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.4.0 #95a5120 (16/08/2018)
-- Add search. Clean up catalogue API method.</news>
+    <news>0.6.0 #9b85186 (24/08/2018)
+- Add Polish translation thanks @xulek &amp; add translation to API calls</news>
   </extension>
 </addon>
-  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.1.0">
+  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.2.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -189,8 +190,11 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/sky-go-kodi-add-on.html</website>
-    <news>0.1.0 #93f016d (08/08/2018)
-- Clean</news>
+    <news>0.2.0 #58351b4 (21/08/2018)
+- Clean up renew token code
+- Fix renew token
+- Migrate to latest common. Add renew token
+- Update README.md</news>
   </extension>
 </addon>
   <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.4.1">
