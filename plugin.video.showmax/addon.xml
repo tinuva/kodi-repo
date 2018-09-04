@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.11.0">
+<addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.12.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -9,12 +9,12 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <description lang="en">Watch your favourite content from Showmax (South Africa). Subscription required.</description>
+    <description lang="en">Watch your favourite content from Showmax. Subscription required.</description>
     <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.11.0 #5a4f4e0 (03/09/2018)
-- Update Polish missing string</news>
+    <news>0.12.0 #1823261 (04/09/2018)
+- Remove South Africa from add-on description as available in many more countries</news>
   </extension>
 </addon>
