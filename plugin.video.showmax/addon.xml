@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.12.0">
+<addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.13.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -14,7 +14,9 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.12.0 #1823261 (04/09/2018)
-- Remove South Africa from add-on description as available in many more countries</news>
+    <news>0.13.0 #2bbcd5c (07/09/2018)
+- Update common
+- Migrate to new common
+- Migrate to new common</news>
   </extension>
 </addon>
