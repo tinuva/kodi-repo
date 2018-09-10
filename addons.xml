@@ -157,7 +157,7 @@ Lightbox subscription required.</description>
 - Fix service</news>
   </extension>
 </addon>
-  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.13.0">
+  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.14.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -172,10 +172,8 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.13.0 #2bbcd5c (07/09/2018)
-- Update common
-- Migrate to new common
-- Migrate to new common</news>
+    <news>0.14.0 #bf65f39 (10/09/2018)
+- Add widevine restart</news>
   </extension>
 </addon>
   <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.3.0">
