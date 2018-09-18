@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.14.0">
+<addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.15.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -14,7 +14,8 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.14.0 #bf65f39 (10/09/2018)
-- Add widevine restart</news>
+    <news>0.15.0 #ef1e388 (18/09/2018)
+- Migrate to latest common
+- Migrate new common</news>
   </extension>
 </addon>

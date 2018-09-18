@@ -157,7 +157,7 @@ Lightbox subscription required.</description>
 - Fix service</news>
   </extension>
 </addon>
-  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.14.0">
+  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.15.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -172,8 +172,9 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.14.0 #bf65f39 (10/09/2018)
-- Add widevine restart</news>
+    <news>0.15.0 #ef1e388 (18/09/2018)
+- Migrate to latest common
+- Migrate new common</news>
   </extension>
 </addon>
   <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.3.0">
@@ -194,7 +195,7 @@ Lightbox subscription required.</description>
 - Fix refresh token logic. Remove empty error.</news>
   </extension>
 </addon>
-  <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.4.1">
+  <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.5.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -204,14 +205,16 @@ Lightbox subscription required.</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <description lang="en">Watch the latest TV On Demand episodes of all your favourite shows from Three with ThreeNow</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/03/threenow-kodi-add-on.html</website>
-    <news>0.4.1 #c090de0 (06/08/2018)
-- Add submodule</news>
+    <news>0.5.0 #1112b68 (18/09/2018)
+- Improve search
+- Migrate to latest common</news>
   </extension>
 </addon>
-  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.5.0">
+  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.6.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -225,7 +228,8 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/02/kodi-tvnz-ondemand-add-on.html</website>
-    <news>0.5.0 #d346c20 (17/09/2018)
+    <news>0.6.0 #03d9cbf (18/09/2018)
+- Bold
 - Migrate to latest common</news>
   </extension>
 </addon>
