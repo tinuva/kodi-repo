@@ -214,7 +214,7 @@ Lightbox subscription required.</description>
 - Migrate to latest common</news>
   </extension>
 </addon>
-  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.6.0">
+  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.7.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -228,12 +228,11 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/02/kodi-tvnz-ondemand-add-on.html</website>
-    <news>0.6.0 #03d9cbf (18/09/2018)
-- Bold
-- Migrate to latest common</news>
+    <news>0.7.0 #9e7c80c (19/09/2018)
+- Add fanart</news>
   </extension>
 </addon>
-  <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.2.1">
+  <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.3.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -247,8 +246,10 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/udemy-kodi-add-on.html</website>
-    <news>0.2.1 #2c30ccd (06/08/2018)
-- Fix list bug. Fix quality select bug</news>
+    <news>0.3.0 #3d9d84e (19/09/2018)
+- Fix art on playing item
+- Fix mark as watched
+- Migrate to latest common. Add initial buisness support</news>
   </extension>
 </addon>
   <addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.4.1">
