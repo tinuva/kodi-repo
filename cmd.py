@@ -59,6 +59,9 @@ def update_addons_xml():
     _addons = get_addons()
     for addon in _addons:
         addon_xml_path = os.path.join(ROOT_DIR, addon, ADDON_XML)
+        if not os.path.exists(addon_xml_path):
+            continue
+            
         tree = ET.parse(addon_xml_path)
         addons.append(tree.getroot())
 
