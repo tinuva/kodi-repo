@@ -49,3 +49,6 @@
 [submodule "plugin.video.showmax/src"]
 	path = plugin.video.showmax/src
 	url = https://github.com/matthuisman/plugin.video.showmax/
+[submodule "plugin.video.dstv.now/src"]
+	path = plugin.video.dstv.now/src
+	url = https://github.com/matthuisman/plugin.video.dstv.now
