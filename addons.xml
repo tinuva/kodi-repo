@@ -157,7 +157,7 @@ Lightbox subscription required.</description>
 - Fix service</news>
   </extension>
 </addon>
-  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.17.0">
+  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.18.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -172,8 +172,11 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.17.0 #bbe3457 (19/09/2018)
-- Enable language selection for communications, audio &amp; subtitles</news>
+    <news>0.18.0 #9af2b35 (20/09/2018)
+- Migrate to correct new language layout
+- Merge pull request #4 from xulek/patch-1
+- Update Polish strings. Thanks @xulek 
+Update strings.po</news>
   </extension>
 </addon>
   <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.3.0">
