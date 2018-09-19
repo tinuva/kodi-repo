@@ -157,7 +157,7 @@ Lightbox subscription required.</description>
 - Fix service</news>
   </extension>
 </addon>
-  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.15.0">
+  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.16.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -172,9 +172,8 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.15.0 #ef1e388 (18/09/2018)
-- Migrate to latest common
-- Migrate new common</news>
+    <news>0.16.0 #37c3a63 (19/09/2018)
+- Migrate to latest common</news>
   </extension>
 </addon>
   <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.3.0">
@@ -195,7 +194,7 @@ Lightbox subscription required.</description>
 - Fix refresh token logic. Remove empty error.</news>
   </extension>
 </addon>
-  <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.5.0">
+  <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.6.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -209,12 +208,11 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/03/threenow-kodi-add-on.html</website>
-    <news>0.5.0 #1112b68 (18/09/2018)
-- Improve search
+    <news>0.6.0 #aef7e3e (19/09/2018)
 - Migrate to latest common</news>
   </extension>
 </addon>
-  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.7.0">
+  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.8.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -228,8 +226,8 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/02/kodi-tvnz-ondemand-add-on.html</website>
-    <news>0.7.0 #9e7c80c (19/09/2018)
-- Add fanart</news>
+    <news>0.8.0 #6d3da5f (19/09/2018)
+- Fix episode expiry</news>
   </extension>
 </addon>
   <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.3.0">
