@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.dstv.now" name="DStv Now" provider-name="MattHuisman.nz" version="0.3.0">
+<addon id="plugin.video.dstv.now" name="DStv Now" provider-name="MattHuisman.nz" version="0.4.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -13,7 +13,7 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/09/dstv-now-kodi-add-on.html</website>
-    <news>0.3.0 #5135a49 (24/09/2018)
-- Fix some channels not working</news>
+    <news>0.4.0 #3d40e64 (24/09/2018)
+- Use manifest_update_parameter. Hopefully fixes buffering issues</news>
   </extension>
 </addon>
