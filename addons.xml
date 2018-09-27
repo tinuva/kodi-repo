@@ -195,7 +195,7 @@ Lightbox subscription required.</description>
 - Add support for forced subtitles</news>
   </extension>
 </addon>
-  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.3.0">
+  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.4.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -209,8 +209,10 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/sky-go-kodi-add-on.html</website>
-    <news>0.3.0 #ec6485e (24/08/2018)
-- Fix refresh token logic. Remove empty error.</news>
+    <news>0.4.0 #a06caa0 (28/09/2018)
+- Remove non-required settings
+- Move live to folder.
+- Update README.md</news>
   </extension>
 </addon>
   <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.6.0">
