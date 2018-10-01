@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.8.1">
+<addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.9.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -13,7 +13,10 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/02/kodi-tvnz-ondemand-add-on.html</website>
-    <news>0.8.1 #300da8b (19/09/2018)
-- Fix missing constant bug</news>
+    <news>0.9.0 #ba5533d (01/10/2018)
+- Migrate to latest common
+- Create README.md
+Fix missing constant bug
+- Fix episode expiry</news>
   </extension>
 </addon>
