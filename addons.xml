@@ -158,7 +158,7 @@ Lightbox subscription required.</description>
 - Add submodule</news>
   </extension>
 </addon>
-  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.12.0">
+  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.13.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -169,11 +169,12 @@ Lightbox subscription required.</description>
   <extension point="xbmc.service" library="service.py" start="login"/>
   <extension point="xbmc.addon.metadata">
     <description lang="en">Watch Rugby from RugbyPass.com. RugbyPass.com subscription required.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
-    <news>0.12.0 #5874941 (01/10/2018)
-- Fix from start. Migrate language to new style.</news>
+    <news>0.13.0 #aeabf4f (02/10/2018)
+- Migrate to new common</news>
   </extension>
 </addon>
   <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.20.0">
