@@ -158,7 +158,7 @@ Lightbox subscription required.</description>
 - Add submodule</news>
   </extension>
 </addon>
-  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.11.0">
+  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.12.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -172,9 +172,8 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
-    <news>0.11.0 #18dd242 (01/10/2018)
-- Retry failed API calls
-- Create README.md</news>
+    <news>0.12.0 #5874941 (01/10/2018)
+- Fix from start. Migrate language to new style.</news>
   </extension>
 </addon>
   <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.20.0">
