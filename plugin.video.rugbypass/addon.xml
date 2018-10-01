@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.10.0">
+<addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.11.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -13,7 +13,8 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
-    <news>0.10.0 #1406550 (08/08/2018)
-- Fix service</news>
+    <news>0.11.0 #18dd242 (01/10/2018)
+- Retry failed API calls
+- Create README.md</news>
   </extension>
 </addon>
