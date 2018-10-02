@@ -233,12 +233,6 @@ def do_cmd(cmd):
     elif cmd == 'init':
         print(check_output(['git', 'submodule', 'update', '--init', '--recursive']).decode('utf-8').strip())
 
-    elif cmd == 'merge_stable':
-        if BRANCH == 'stable':
-            raise Exception('Already on stable!')
-            
-        print(check_output(['git', 'merge', 'stable', '-X', 'theirs']).decode('utf-8').strip())
-
     else:
         raise Exception('Unknown command')
 
