@@ -106,21 +106,23 @@ You can change the region (default = Sydney) in the addon settings.</description
 - Create README.md</news>
   </extension>
 </addon>
-  <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.5.1">
+  <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.6.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
   </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <description lang="en">HEIHEI is a bright and cheerful streaming platform filled exclusively with safe, ad-free, age-appropriate content for children.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/05/heihei-kodi-add-on.html</website>
-    <news>0.5.1 #d8f7910 (06/08/2018)
-- Add submodule</news>
+    <news>0.6.0 #4e7be60 (02/10/2018)
+- Migrate to latest common
+- Create README.md</news>
   </extension>
 </addon>
   <addon id="plugin.video.lightbox" name="Lightbox" provider-name="MattHuisman.nz" version="0.3.1">
