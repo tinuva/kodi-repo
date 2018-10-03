@@ -312,18 +312,23 @@ Migrate to correct language layout</news>
 - Only show clear cache context when cache enabled</news>
   </extension>
 </addon>
-  <addon id="service.gpio.monitor" name="GPIO Monitor" provider-name="MattHuisman.nz" version="0.2.2">
+  <addon id="service.gpio.monitor" name="GPIO Monitor" provider-name="MattHuisman.nz" version="0.3.0">
   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
   </requires>
   <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
   <extension point="xbmc.addon.metadata">
-    <platform>linux</platform>
     <description lang="en">Monitors a GPIO pin and runs a KODI function (eg. Shutdown) when it changes (Raspberry Pi Only)</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2016/11/kodi-gpio-monitor-service-addon.html</website>
-    <news>0.2.2 #323decc (06/08/2018)
-- Remove dep</news>
+    <news>0.3.0 #005c954 (03/10/2018)
+- Big re-write. Multiple pins etc now available</news>
   </extension>
 </addon>
   <addon id="service.time.monitor" name="Time Change Monitor" provider-name="MattHuisman.nz" version="0.2.2">
