@@ -179,7 +179,7 @@ def update_addon(addon, target_version=None, target_commit=None):
         if os.path.exists(src_file_path):
             shutil.copy(src_file_path, dst_file_path)
 
-    ignores = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test*.py')
+    ignores = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test*.py', '*.psd')
 
     tmp_dir = os.path.join(addon_path, addon)
     shutil.rmtree(tmp_dir, ignore_errors=True)
