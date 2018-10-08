@@ -24,6 +24,7 @@ SRC_DIR     = 'src'
 ADDONS_XML  = 'addons.xml'
 BRANCH      = 'master'
 LOG_CHANGES = 5
+IGNORES = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test*.py', '*.psd', '*.code-workspace')
 
 def md5(fname):
     hash_md5 = hashlib.md5()
@@ -179,12 +180,10 @@ def update_addon(addon, target_version=None, target_commit=None):
         if os.path.exists(src_file_path):
             shutil.copy(src_file_path, dst_file_path)
 
-    ignores = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test*.py', '*.psd')
-
     tmp_dir = os.path.join(addon_path, addon)
     shutil.rmtree(tmp_dir, ignore_errors=True)
 
-    shutil.copytree(src_path, tmp_dir, ignore=shutil.ignore_patterns(*ignores))
+    shutil.copytree(src_path, tmp_dir, ignore=shutil.ignore_patterns(*IGNORES))
     shutil.copy(addon_xml_path, os.path.join(tmp_dir, ADDON_XML))
 
     zip_file = os.path.join(addon_path, '{0}-{1}'.format(addon, target_version))
