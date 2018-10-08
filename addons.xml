@@ -160,7 +160,7 @@ Lightbox subscription required.</description>
 - Add submodule</news>
   </extension>
 </addon>
-  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.14.0">
+  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.15.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -175,8 +175,9 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
-    <news>0.14.0 #33f80a4 (07/10/2018)
-- Fix 'Play from Start'</news>
+    <news>0.15.0 #f252e8b (09/10/2018)
+- Delete all games before adding new games
+- Migrate to latest common</news>
   </extension>
 </addon>
   <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.20.0">
