@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.fanpass" name="Fan Pass" provider-name="MattHuisman.nz" version="0.9.0">
+<addon id="plugin.video.fanpass" name="Fan Pass" provider-name="MattHuisman.nz" version="0.10.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -13,8 +13,8 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/06/fan-pass-kodi-add-on.html</website>
-    <news>0.9.0 #dccf640 (01/10/2018)
+    <news>0.10.0 #bb3709c (09/10/2018)
 - Migrate to latest common
-- Create README.md</news>
+- Add new test code</news>
   </extension>
 </addon>

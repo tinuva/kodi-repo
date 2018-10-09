@@ -69,7 +69,7 @@ You can change the region (default = Sydney) in the addon settings.</description
 - Add submodule</news>
   </extension>
 </addon>
-  <addon id="plugin.video.dstv.now" name="DStv Now" provider-name="MattHuisman.nz" version="0.5.0">
+  <addon id="plugin.video.dstv.now" name="DStv Now" provider-name="MattHuisman.nz" version="0.6.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -83,11 +83,11 @@ You can change the region (default = Sydney) in the addon settings.</description
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/09/dstv-now-kodi-add-on.html</website>
-    <news>0.5.0 #1cb91f8 (28/09/2018)
-- Increase api timeout. Use http (instead of https) for streams</news>
+    <news>0.6.0 #8d050e5 (09/10/2018)
+- Migrate to latest common</news>
   </extension>
 </addon>
-  <addon id="plugin.video.fanpass" name="Fan Pass" provider-name="MattHuisman.nz" version="0.9.0">
+  <addon id="plugin.video.fanpass" name="Fan Pass" provider-name="MattHuisman.nz" version="0.10.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -101,12 +101,12 @@ You can change the region (default = Sydney) in the addon settings.</description
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/06/fan-pass-kodi-add-on.html</website>
-    <news>0.9.0 #dccf640 (01/10/2018)
+    <news>0.10.0 #bb3709c (09/10/2018)
 - Migrate to latest common
-- Create README.md</news>
+- Add new test code</news>
   </extension>
 </addon>
-  <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.6.0">
+  <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.7.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -120,9 +120,8 @@ You can change the region (default = Sydney) in the addon settings.</description
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/05/heihei-kodi-add-on.html</website>
-    <news>0.6.0 #4e7be60 (02/10/2018)
-- Migrate to latest common
-- Create README.md</news>
+    <news>0.7.0 #d650a17 (09/10/2018)
+- Migrate to latest common</news>
   </extension>
 </addon>
   <addon id="plugin.video.lightbox" name="Lightbox" provider-name="MattHuisman.nz" version="0.3.1">
@@ -160,7 +159,7 @@ Lightbox subscription required.</description>
 - Add submodule</news>
   </extension>
 </addon>
-  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.15.0">
+  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.16.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -175,12 +174,14 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
-    <news>0.15.0 #f252e8b (09/10/2018)
-- Delete all games before adding new games
-- Migrate to latest common</news>
+    <news>0.16.0 #dd7a7d7 (09/10/2018)
+- Fix shebang
+- Add workspace
+- Update common
+- Add test.py</news>
   </extension>
 </addon>
-  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.20.0">
+  <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.21.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -195,12 +196,11 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/showmax-kodi-add-on.html</website>
-    <news>0.20.0 #8cfc1d8 (27/09/2018)
-- Update to latest common
-- Add support for forced subtitles</news>
+    <news>0.21.0 #05c90e7 (09/10/2018)
+- Migrate to latest common</news>
   </extension>
 </addon>
-  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.4.0">
+  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.5.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -214,10 +214,10 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/sky-go-kodi-add-on.html</website>
-    <news>0.4.0 #a06caa0 (28/09/2018)
-- Remove non-required settings
-- Move live to folder.
-- Update README.md</news>
+    <news>0.5.0 #e47f3e0 (09/10/2018)
+- Add new test code
+- Migrate to latest common
+- Migrate to latest common</news>
   </extension>
 </addon>
   <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.7.0">
@@ -260,7 +260,7 @@ Fix missing constant bug
 - Fix episode expiry</news>
   </extension>
 </addon>
-  <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.4.0">
+  <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.5.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -274,9 +274,8 @@ Fix missing constant bug
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/udemy-kodi-add-on.html</website>
-    <news>0.4.0 #920110b (20/09/2018)
-- Update README.md
-Migrate to correct language layout</news>
+    <news>0.5.0 #2059eac (09/10/2018)
+- Migrate to latest common</news>
   </extension>
 </addon>
   <addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.4.1">
@@ -313,7 +312,7 @@ Migrate to correct language layout</news>
 - Only show clear cache context when cache enabled</news>
   </extension>
 </addon>
-  <addon id="service.gpio.monitor" name="GPIO Monitor" provider-name="MattHuisman.nz" version="0.4.0">
+  <addon id="service.gpio.monitor" name="GPIO Monitor" provider-name="MattHuisman.nz" version="0.5.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -327,12 +326,9 @@ Migrate to correct language layout</news>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2016/11/kodi-gpio-monitor-service-addon.html</website>
-    <news>0.4.0 #51c9f1f (08/10/2018)
-- Remove Requests dependency
-- Require restart for all systems
-- was -&gt; is
-- Fix language strings
-- Remove un-required check</news>
+    <news>0.5.0 #99cc37b (09/10/2018)
+- Migrate to latest common
+- New test code</news>
   </extension>
 </addon>
   <addon id="service.time.monitor" name="Time Change Monitor" provider-name="MattHuisman.nz" version="0.2.2">

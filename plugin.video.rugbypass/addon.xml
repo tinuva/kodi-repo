@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.15.0">
+<addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.16.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -14,8 +14,10 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
-    <news>0.15.0 #f252e8b (09/10/2018)
-- Delete all games before adding new games
-- Migrate to latest common</news>
+    <news>0.16.0 #dd7a7d7 (09/10/2018)
+- Fix shebang
+- Add workspace
+- Update common
+- Add test.py</news>
   </extension>
 </addon>
