@@ -242,7 +242,7 @@ Create README.md</news>
 - Create README.md</news>
   </extension>
 </addon>
-  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.9.0">
+  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.10.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -256,11 +256,9 @@ Create README.md</news>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/02/kodi-tvnz-ondemand-add-on.html</website>
-    <news>0.9.0 #ba5533d (01/10/2018)
-- Migrate to latest common
-- Create README.md
-Fix missing constant bug
-- Fix episode expiry</news>
+    <news>0.10.0 #f655e84 (12/10/2018)
+- Update Show view
+- Migrate to latest common</news>
   </extension>
 </addon>
   <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.5.0">
