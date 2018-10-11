@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.7.0">
+<addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.8.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -13,8 +13,7 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/03/threenow-kodi-add-on.html</website>
-    <news>0.7.0 #afdd3fc (01/10/2018)
-- Migrate to latest common
-- Create README.md</news>
+    <news>0.8.0 #00b84d1 (12/10/2018)
+- Migrate to latest common</news>
   </extension>
 </addon>
