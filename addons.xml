@@ -51,7 +51,7 @@ You can change the region (default = Sydney) in the addon settings.</description
 - Add new 'Show Boot Commands' context item</news>
   </extension>
 </addon>
-  <addon id="plugin.video.au.freeview" name="IPTV AU" provider-name="MattHuisman.nz" version="0.7.1">
+  <addon id="plugin.video.au.freeview" name="IPTV AU" provider-name="MattHuisman.nz" version="0.8.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -62,11 +62,12 @@ You can change the region (default = Sydney) in the addon settings.</description
   <extension point="xbmc.addon.metadata">
     <description lang="en">Watch all your favourite AU IPTV streams!
 You can change the region (default = Sydney) in the addon settings.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/au-freeview-kodi-add-on.html</website>
-    <news>0.7.1 #9989c50 (06/08/2018)
-- Add submodule</news>
+    <news>0.8.0 #32473b8 (12/10/2018)
+- Migrate to latest common</news>
   </extension>
 </addon>
   <addon id="plugin.video.dstv.now" name="DStv Now" provider-name="MattHuisman.nz" version="0.6.0">
@@ -145,7 +146,7 @@ Lightbox subscription required.</description>
 Create README.md</news>
   </extension>
 </addon>
-  <addon id="plugin.video.nz.freeview" name="IPTV NZ" provider-name="MattHuisman.nz" version="0.8.0">
+  <addon id="plugin.video.nz.freeview" name="IPTV NZ" provider-name="MattHuisman.nz" version="0.9.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -159,9 +160,9 @@ Create README.md</news>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/06/nz-freeview-kodi-add-on.html</website>
-    <news>0.8.0 #5d78513 (12/10/2018)
-- Create README.md
-Migrate to latest common</news>
+    <news>0.9.0 #3255c96 (12/10/2018)
+- Make streams live
+- Update README.md</news>
   </extension>
 </addon>
   <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.16.0">

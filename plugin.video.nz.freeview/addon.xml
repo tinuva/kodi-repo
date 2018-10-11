@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.nz.freeview" name="IPTV NZ" provider-name="MattHuisman.nz" version="0.8.0">
+<addon id="plugin.video.nz.freeview" name="IPTV NZ" provider-name="MattHuisman.nz" version="0.9.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -13,8 +13,8 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/06/nz-freeview-kodi-add-on.html</website>
-    <news>0.8.0 #5d78513 (12/10/2018)
-- Create README.md
-Migrate to latest common</news>
+    <news>0.9.0 #3255c96 (12/10/2018)
+- Make streams live
+- Update README.md</news>
   </extension>
 </addon>
