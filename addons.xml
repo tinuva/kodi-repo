@@ -18,7 +18,7 @@ You can change the region (default = Sydney) in the addon settings.</description
 - Add submodule</news>
   </extension>
 </addon>
-  <addon id="plugin.audio.nz.radio" name="RADIO NZ" provider-name="MattHuisman.nz" version="0.6.1">
+  <addon id="plugin.audio.nz.radio" name="RADIO NZ" provider-name="MattHuisman.nz" version="0.7.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -28,11 +28,14 @@ You can change the region (default = Sydney) in the addon settings.</description
   </extension>
   <extension point="xbmc.addon.metadata">
     <description lang="en">Easily listen to all your favourite NZ radio stations</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/05/nz-radio-kodi-add-on.html</website>
-    <news>0.6.1 #2f14c10 (06/08/2018)
-- Add submodule</news>
+    <news>0.7.0 #5a4161b (12/10/2018)
+- Update README.md
+Create README.md
+Migrate to latest common</news>
   </extension>
 </addon>
   <addon id="plugin.program.noobs.companion" name="NOOBS Companion" provider-name="MattHuisman.nz" version="0.5.2">
