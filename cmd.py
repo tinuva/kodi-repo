@@ -186,6 +186,11 @@ def update_addon(addon, target_version=None, target_commit=None):
     shutil.copytree(src_path, tmp_dir, ignore=shutil.ignore_patterns(*IGNORES))
     shutil.copy(addon_xml_path, os.path.join(tmp_dir, ADDON_XML))
 
+    package_script = os.path.join(tmp_dir, 'resources', 'lib', 'matthuisman', 'package.py')
+    if os.path.exists(package_script):
+        os.system(package_script)
+        os.remove(package_script)
+
     zip_file = os.path.join(addon_path, '{0}-{1}'.format(addon, target_version))
     shutil.make_archive(zip_file, 'zip', addon_path, addon)
     shutil.rmtree(tmp_dir, ignore_errors=True)
