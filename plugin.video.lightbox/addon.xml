@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.lightbox" name="Lightbox" provider-name="MattHuisman.nz" version="0.4.0">
+<addon id="plugin.video.lightbox" name="Lightbox" provider-name="MattHuisman.nz" version="0.5.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -14,9 +14,7 @@ Lightbox subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/06/lightbox-kodi-add-on.html</website>
-    <news>0.4.0 #917ba10 (10/10/2018)
-- Migrate to latest common
-- Update README.md
-Create README.md</news>
+    <news>0.5.0 #67a534e (17/10/2018)
+- Migrate to latest common</news>
   </extension>
 </addon>
