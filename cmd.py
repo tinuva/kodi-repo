@@ -24,7 +24,7 @@ SRC_DIR     = 'src'
 ADDONS_XML  = 'addons.xml'
 BRANCH      = 'master'
 LOG_CHANGES = 5
-IGNORES = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test.py', '*.psd', '*.code-workspace', '.vscode*', 'plugin.po', 'common.po')
+IGNORES = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test.py', '*.psd', '*.code-workspace', '.vscode*', 'plugin.po', 'common.po', 'README.md')
 
 def md5(fname):
     hash_md5 = hashlib.md5()
