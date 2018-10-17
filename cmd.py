@@ -24,7 +24,7 @@ SRC_DIR     = 'src'
 ADDONS_XML  = 'addons.xml'
 BRANCH      = 'master'
 LOG_CHANGES = 5
-IGNORES = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test.py', '*.psd', '*.code-workspace', '.vscode*')
+IGNORES = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test.py', '*.psd', '*.code-workspace', '.vscode*', 'plugin.po', 'common.po')
 
 def md5(fname):
     hash_md5 = hashlib.md5()
@@ -180,20 +180,25 @@ def update_addon(addon, target_version=None, target_commit=None):
         if os.path.exists(src_file_path):
             shutil.copy(src_file_path, dst_file_path)
 
-    tmp_dir = os.path.join(addon_path, addon)
-    shutil.rmtree(tmp_dir, ignore_errors=True)
+    wrk_dir = os.path.join(addon_path, '.wrk')
+    shutil.rmtree(wrk_dir, ignore_errors=True)
+    shutil.copytree(src_path, wrk_dir)
+    shutil.copy(addon_xml_path, os.path.join(wrk_dir, ADDON_XML))
+    
+    pkg_script = os.path.join(wrk_dir, 'resources', 'lib', 'matthuisman', 'package.py')
+    if os.path.exists(pkg_script):
+        os.system(pkg_script)
+        os.remove(pkg_script)
 
-    shutil.copytree(src_path, tmp_dir, ignore=shutil.ignore_patterns(*IGNORES))
-    shutil.copy(addon_xml_path, os.path.join(tmp_dir, ADDON_XML))
+    pkg_dir = os.path.join(addon_path, addon)
+    shutil.rmtree(pkg_dir, ignore_errors=True)
 
-    package_script = os.path.join(tmp_dir, 'resources', 'lib', 'matthuisman', 'package.py')
-    if os.path.exists(package_script):
-        os.system(package_script)
-        os.remove(package_script)
+    shutil.copytree(wrk_dir, pkg_dir, ignore=shutil.ignore_patterns(*IGNORES))
+    shutil.rmtree(wrk_dir, ignore_errors=True)
 
     zip_file = os.path.join(addon_path, '{0}-{1}'.format(addon, target_version))
     shutil.make_archive(zip_file, 'zip', addon_path, addon)
-    shutil.rmtree(tmp_dir, ignore_errors=True)
+    shutil.rmtree(pkg_dir, ignore_errors=True)
 
     shutil.copy(zip_file + '.zip', os.path.join(addon_path, '{0}-latest.zip'.format(addon)))
 
