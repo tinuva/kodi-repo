@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.time.monitor" name="Time Change Monitor" provider-name="MattHuisman.nz" version="0.2.2">
+<addon id="service.time.monitor" name="Time Change Monitor" provider-name="MattHuisman.nz" version="0.3.0">
   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.service" library="service.py" start="login"/>
   <extension point="xbmc.addon.metadata">
     <description lang="en">Runs a command (default=Reboot) when there is a time change in KODI.
 Useful for rebooting KODI when there is a change to Daylight Savings Time (which fixes EPG times).
     </description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/04/time-change-monitor-kodi-add-on.html</website>
-    <news>0.2.2 #3dde5f7 (06/08/2018)
-- Remove dep</news>
+    <news>0.3.0 #7bd77e5 (17/10/2018)
+- Merge branch 'master' of https://github.com/matthuisman/service.time.monitor
+- Migrate to latest common
+- Create README.md
+Migrate to latest common</news>
   </extension>
 </addon>
