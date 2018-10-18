@@ -210,7 +210,7 @@ Update README.md</news>
 - Migrate to latest common</news>
   </extension>
 </addon>
-  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.7.0">
+  <addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.8.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -224,8 +224,11 @@ Update README.md</news>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/sky-go-kodi-add-on.html</website>
-    <news>0.7.0 #622f4e7 (18/10/2018)
-- Add initial Movies support</news>
+    <news>0.8.0 #1fa31a6 (19/10/2018)
+- Add Sports &amp; Box Sets
+Fix Sorting
+- Fix up bad merge
+- Add TV Shows</news>
   </extension>
 </addon>
   <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.9.0">
