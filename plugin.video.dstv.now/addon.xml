@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.dstv.now" name="DStv Now" provider-name="MattHuisman.nz" version="0.7.0">
+<addon id="plugin.video.dstv.now" name="DStv Now" provider-name="MattHuisman.nz" version="0.8.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -13,7 +13,7 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/09/dstv-now-kodi-add-on.html</website>
-    <news>0.7.0 #a425a07 (17/10/2018)
-- Migrate to latest common</news>
+    <news>0.8.0 #84c5f90 (23/10/2018)
+- Allow to login with Email or Mobile Number (untested)</news>
   </extension>
 </addon>
