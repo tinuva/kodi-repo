@@ -112,7 +112,7 @@ Create README.md</news>
 - Migrate to latest common</news>
   </extension>
 </addon>
-  <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.8.0">
+  <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.9.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -126,9 +126,8 @@ Create README.md</news>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/05/heihei-kodi-add-on.html</website>
-    <news>0.8.0 #00fee1f (17/10/2018)
-- Latest common
-- Migrate to latest common</news>
+    <news>0.9.0 #e2646a5 (23/10/2018)
+- Use common brightcove process</news>
   </extension>
 </addon>
   <addon id="plugin.video.lightbox" name="Lightbox" provider-name="MattHuisman.nz" version="0.5.0">
@@ -230,7 +229,7 @@ Update README.md</news>
 - new icon</news>
   </extension>
 </addon>
-  <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.9.0">
+  <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.10.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -244,11 +243,11 @@ Update README.md</news>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/03/threenow-kodi-add-on.html</website>
-    <news>0.9.0 #40c6ecd (17/10/2018)
-- Migrate to latest common</news>
+    <news>0.10.0 #94e291f (23/10/2018)
+- Update to use common brightcove process</news>
   </extension>
 </addon>
-  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.11.0">
+  <addon id="plugin.video.tvnz.ondemand" name="TVNZ OnDemand" provider-name="MattHuisman.nz" version="0.12.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -262,8 +261,8 @@ Update README.md</news>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/02/kodi-tvnz-ondemand-add-on.html</website>
-    <news>0.11.0 #7264b0c (17/10/2018)
-- Migrate to latest common</news>
+    <news>0.12.0 #38f77a2 (23/10/2018)
+- Use common process brightcove</news>
   </extension>
 </addon>
   <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.6.0">
