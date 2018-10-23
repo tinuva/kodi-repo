@@ -229,6 +229,26 @@ Update README.md</news>
 - new icon</news>
   </extension>
 </addon>
+  <addon id="plugin.video.superview" name="SuperView" provider-name="MattHuisman.nz" version="0.1.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Watch all Australia Supercars Championship races.
+Subscription required.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license>GNU General Public License, v2</license>
+    <language/>
+    <website>https://www.matthuisman.nz/2018/10/superview-kodi-add-on.html</website>
+    <news>0.1.0 #91386bf (24/10/2018)
+- Clean up</news>
+  </extension>
+</addon>
   <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.10.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
