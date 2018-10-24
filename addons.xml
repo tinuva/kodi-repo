@@ -229,7 +229,7 @@ Update README.md</news>
 - new icon</news>
   </extension>
 </addon>
-  <addon id="plugin.video.superview" name="SuperView" provider-name="MattHuisman.nz" version="0.1.0">
+  <addon id="plugin.video.superview" name="SuperView" provider-name="MattHuisman.nz" version="0.2.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -245,8 +245,8 @@ Subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/10/superview-kodi-add-on.html</website>
-    <news>0.1.0 #91386bf (24/10/2018)
-- Clean up</news>
+    <news>0.2.0 #3eb5a39 (24/10/2018)
+- Add option to save password for auto login on session expiry (48 hours)</news>
   </extension>
 </addon>
   <addon id="plugin.video.three.now" name="ThreeNow" provider-name="MattHuisman.nz" version="0.10.0">
