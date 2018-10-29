@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.10.0">
+<addon id="plugin.video.skygo.nz" name="SKY GO" provider-name="MattHuisman.nz" version="0.11.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -13,7 +13,7 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/sky-go-kodi-add-on.html</website>
-    <news>0.10.0 #9c036b1 (25/10/2018)
-- Fix error messages</news>
+    <news>0.11.0 #04c5d11 (30/10/2018)
+- Fix Live. Allow saving password to make add-on work with multiple devices</news>
   </extension>
 </addon>
