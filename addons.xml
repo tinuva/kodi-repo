@@ -169,7 +169,7 @@ Lightbox subscription required.</description>
 Update README.md</news>
   </extension>
 </addon>
-  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.17.0">
+  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.18.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -184,8 +184,9 @@ Update README.md</news>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
-    <news>0.17.0 #38eda93 (17/10/2018)
-- Migrate to latest common</news>
+    <news>0.18.0 #24aad41 (03/11/2018)
+- Fix alert type
+- Don't show score context for upcoming games. Update common</news>
   </extension>
 </addon>
   <addon id="plugin.video.showmax" name="Showmax" provider-name="MattHuisman.nz" version="0.23.0">
