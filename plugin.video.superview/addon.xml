@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.superview" name="SuperView" provider-name="MattHuisman.nz" version="0.3.0">
+<addon id="plugin.video.superview" name="SuperView" provider-name="MattHuisman.nz" version="0.4.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -15,8 +15,7 @@ Subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/10/superview-kodi-add-on.html</website>
-    <news>0.3.0 #ba147e4 (30/10/2018)
-- Fix Up Coming Streams
-- Move save location to blog post</news>
+    <news>0.4.0 #2d225ac (03/11/2018)
+- Support live Races</news>
   </extension>
 </addon>
