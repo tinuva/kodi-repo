@@ -282,7 +282,7 @@ Subscription required.</description>
 - Use common process brightcove</news>
   </extension>
 </addon>
-  <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.6.0">
+  <addon id="plugin.video.udemy" name="Udemy" provider-name="MattHuisman.nz" version="0.7.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -296,8 +296,8 @@ Subscription required.</description>
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/08/udemy-kodi-add-on.html</website>
-    <news>0.6.0 #92c9e37 (17/10/2018)
-- Migrate to latest common</news>
+    <news>0.7.0 #d02725e (07/11/2018)
+- Split out sections into own directory view</news>
   </extension>
 </addon>
   <addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.4.1">
