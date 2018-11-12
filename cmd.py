@@ -25,6 +25,7 @@ ADDONS_XML  = 'addons.xml'
 BRANCH      = 'master'
 LOG_CHANGES = 5
 IGNORES = ('__pycache__', '.git*', '*.pyc', '*.pyo', 'test.py', '*.psd', '*.code-workspace', '.vscode*', 'plugin.po', 'common.po', 'README.md')
+SKIP_ADDONS = ['plugin.video.dstv.now', 'plugin.video.showmax']
 
 def md5(fname):
     hash_md5 = hashlib.md5()
@@ -59,6 +60,9 @@ def update_addons_xml():
 
     _addons = get_addons()
     for addon in _addons:
+        if addon in SKIP_ADDONS:
+            continue
+            
         addon_xml_path = os.path.join(ROOT_DIR, addon, ADDON_XML)
         if not os.path.exists(addon_xml_path):
             continue
