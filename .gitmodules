@@ -46,12 +46,6 @@
 [submodule "plugin.video.skygo.nz/src"]
 	path = plugin.video.skygo.nz/src
 	url = https://github.com/matthuisman/plugin.video.skygo.nz
-[submodule "plugin.video.showmax/src"]
-	path = plugin.video.showmax/src
-	url = https://github.com/matthuisman/plugin.video.showmax/
-[submodule "plugin.video.dstv.now/src"]
-	path = plugin.video.dstv.now/src
-	url = https://github.com/matthuisman/plugin.video.dstv.now
 [submodule "plugin.video.superview/src"]
 	path = plugin.video.superview/src
 	url = https://github.com/matthuisman/plugin.video.superview
