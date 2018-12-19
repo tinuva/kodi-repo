@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.gpio.monitor" name="GPIO Monitor" provider-name="MattHuisman.nz" version="0.10.0">
+<addon id="service.gpio.monitor" name="GPIO Monitor" provider-name="MattHuisman.nz" version="0.11.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -13,11 +13,7 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2018/10/gpio-monitor-kodi-add-on.html</website>
-    <news>0.10.0 #eba6666 (19/12/2018)
-- Re-order
-- Support armv6 and armv7
-- Update README.md
-Update README.md
-Update README.md</news>
+    <news>0.11.0 #0e9ade9 (19/12/2018)
+- Support Raspbian</news>
   </extension>
 </addon>
