@@ -7,6 +7,7 @@ import shutil
 import datetime
 import zipfile
 import hashlib
+import requests
 
 from subprocess import check_output
 from distutils.version import StrictVersion
@@ -242,20 +243,41 @@ def do_cmd(cmd):
 
         url = 'http://k.mjh.nz/.repository/'
 
-        urls = ['repository.matthuisman-latest.zip']
-        changes = check_output('git diff --staged --name-only', shell=True).decode('utf-8').strip().split('\n')
-        for file in changes:
-            urls.extend([os.path.dirname(file), file])
+        changes = check_output('git diff --staged --name-only', shell=True).decode('utf-8').strip()
+        if not changes:
+            print("\n** No Changes Found **")
+            return
 
-        print(urls)
+        urls = ['http://k.mjh.nz/repository.matthuisman-latest.zip']
+        for file in changes.split('\n'):
+            dirname = os.path.join(url, os.path.dirname(file))
+            file = os.path.join(url, file)
+            if dirname not in urls:
+                urls.append(dirname)
 
+            if file not in urls:
+                urls.append(file)
 
-        # check_output(['git', 'commit', '-m', 'Update'])
-        # check_output(['git', 'push', 'origin', '-f'])
+        with open('../../cf_secret.txt') as f:
+            email, apikey, zone = f.read().split('|')
+
+        def chunks(l, n):
+            """Yield successive n-sized chunks from l."""
+            for i in range(0, len(l), n):
+                yield l[i:i + n]
+
+        for chunk in chunks(urls, 30):
+            print(chunk)
+            r = requests.post('https://api.cloudflare.com/client/v4/zones/{}/purge_cache'.format(zone), 
+                headers={'X-Auth-Email': email, 'X-Auth-Key': apikey}, json={'files': chunk})
+            print(r.json())
+
+        check_output(['git', 'commit', '-m', 'Update'])
+        check_output(['git', 'push', 'origin', '-f'])
         print("\n** DONE **")
 
-    # elif cmd == 'init':
-    #     print(check_output(['git', 'submodule', 'update', '--init', '--recursive']).decode('utf-8').strip())
+    elif cmd == 'init':
+        print(check_output(['git', 'submodule', 'update', '--init', '--recursive']).decode('utf-8').strip())
 
     elif cmd == 'pull':
         print("\n** Pulling Updates... **")
