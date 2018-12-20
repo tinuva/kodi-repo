@@ -245,7 +245,7 @@ def do_cmd(cmd):
 
         changes = check_output('git diff --staged --name-only', shell=True).decode('utf-8').strip()
         if not changes:
-            print("\n** No Changes Found **")
+            print("** No Changes Found **")
             return
 
         urls = ['http://k.mjh.nz/repository.matthuisman-latest.zip']
