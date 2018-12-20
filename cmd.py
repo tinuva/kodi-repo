@@ -189,10 +189,10 @@ def update_addon(addon, target_version=None, target_commit=None):
     shutil.rmtree(wrk_dir, ignore_errors=True)
     shutil.copytree(src_path, wrk_dir)
     shutil.copy(addon_xml_path, os.path.join(wrk_dir, ADDON_XML))
-    
+
     pkg_script = os.path.join(wrk_dir, 'resources', 'lib', 'matthuisman', 'package.py')
     if os.path.exists(pkg_script):
-        os.system(pkg_script)
+        os.system('python3 '+pkg_script)
         os.remove(pkg_script)
 
     pkg_dir = os.path.join(addon_path, addon)
@@ -243,12 +243,16 @@ def do_cmd(cmd):
 
         url = 'http://k.mjh.nz/.repository/'
 
-        changes = check_output('git diff --staged --name-only', shell=True).decode('utf-8').strip()
+        #Get list of all modified files
+        changes = check_output("git status -s | awk '{if ($1 == \"M\") print $2}'", shell=True).decode('utf-8').strip()
         if not changes:
             print("** No Changes Found **")
             return
 
-        urls = ['http://k.mjh.nz/repository.matthuisman-latest.zip']
+        urls = []
+        if 'repository.matthuisman/repository.matthuisman-latest.zip' in changes:
+            urls.append('http://k.mjh.nz/repository.matthuisman-latest.zip')
+
         for file in changes.split('\n'):
             file = os.path.join(url, file)
             urls.append(file)
