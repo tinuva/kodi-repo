@@ -250,13 +250,8 @@ def do_cmd(cmd):
 
         urls = ['http://k.mjh.nz/repository.matthuisman-latest.zip']
         for file in changes.split('\n'):
-            dirname = os.path.join(url, os.path.dirname(file))
             file = os.path.join(url, file)
-            if dirname not in urls:
-                urls.append(dirname)
-
-            if file not in urls:
-                urls.append(file)
+            urls.append(file)
 
         with open('../../cf_secret.txt') as f:
             email, apikey, zone = f.read().split('|')
