@@ -237,14 +237,31 @@ def do_cmd(cmd):
         revert(sys.argv[2])
         update_addons_xml()
 
-    elif cmd == 'push':
+    elif cmd == 'commit':
         print("\n** Pushing Updates... **")
-        check_output(['git', 'commit', '-m', 'Update'])
-        check_output(['git', 'push', 'origin', '-f'])
+
+        url = 'http://k.mjh.nz/.repository/'
+
+        urls = ['repository.matthuisman-latest.zip']
+        changes = check_output('git diff --staged --name-only', shell=True).decode('utf-8').strip().split('\n')
+        for file in changes:
+            urls.extend([os.path.dirname(file), file])
+
+        print(urls)
+
+
+        # check_output(['git', 'commit', '-m', 'Update'])
+        # check_output(['git', 'push', 'origin', '-f'])
         print("\n** DONE **")
 
-    elif cmd == 'init':
+    # elif cmd == 'init':
+    #     print(check_output(['git', 'submodule', 'update', '--init', '--recursive']).decode('utf-8').strip())
+
+    elif cmd == 'pull':
+        print("\n** Pulling Updates... **")
+        check_output(['git', 'pull'])
         print(check_output(['git', 'submodule', 'update', '--init', '--recursive']).decode('utf-8').strip())
+        print("\n** DONE **")
 
     else:
         raise Exception('Unknown command')
