@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.4.1">
+<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.5.0">
   <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
     <dir>
-      <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
+      <info compressed="false">http://k.mjh.nz/.repository/addons.xml</info>
+      <checksum>http://k.mjh.nz/.repository/addons.xml.md5</checksum>
+      <datadir zip="true">http://k.mjh.nz/.repository/</datadir>
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -13,7 +13,8 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
-    <news>0.4.1 #605c97a (06/08/2018)
-- Move back to master</news>
+    <news>0.5.0 #336b527 (20/12/2018)
+- Move repo to behind CF cache
+- Create README.md</news>
   </extension>
 </addon>
