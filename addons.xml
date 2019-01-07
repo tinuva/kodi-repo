@@ -279,7 +279,7 @@ You can change the region (default = Sydney) in the addon settings.</description
 - Update to use common brightcove process</news>
   </extension>
 </addon>
-  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.19.0">
+  <addon id="plugin.video.rugbypass" name="RugbyPass" provider-name="MattHuisman.nz" version="0.20.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests"/>
@@ -294,8 +294,8 @@ You can change the region (default = Sydney) in the addon settings.</description
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/08/rugbypass-kodi-add-on.html</website>
-    <news>0.19.0 #46d7f0c (10/12/2018)
-- Fix pop-up notification</news>
+    <news>0.20.0 #ba58322 (07/01/2019)
+- Remove mjh proxy. Try to reduce service memory use</news>
   </extension>
 </addon>
   <addon id="plugin.video.heihei" name="HEIHEI" provider-name="MattHuisman.nz" version="0.9.0">
