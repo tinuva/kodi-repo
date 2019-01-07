@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.5.0">
+<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.6.0">
   <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
     <dir>
-      <info compressed="false">http://k.mjh.nz/.repository/addons.xml</info>
-      <checksum>http://k.mjh.nz/.repository/addons.xml.md5</checksum>
-      <datadir zip="true">http://k.mjh.nz/.repository/</datadir>
+      <info compressed="false">https://k.mjh.nz/.repository/addons.xml</info>
+      <checksum>https://k.mjh.nz/.repository/addons.xml.md5</checksum>
+      <datadir zip="true">https://k.mjh.nz/.repository/</datadir>
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -13,8 +13,7 @@
     <license>GNU General Public License, v2</license>
     <language/>
     <website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
-    <news>0.5.0 #336b527 (20/12/2018)
-- Move repo to behind CF cache
-- Create README.md</news>
+    <news>0.6.0 #a61d1ea (07/01/2019)
+- Use https</news>
   </extension>
 </addon>
