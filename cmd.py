@@ -241,7 +241,7 @@ def do_cmd(cmd):
     elif cmd == 'commit':
         print("\n** Pushing Updates... **")
 
-        url = 'http://k.mjh.nz/.repository/'
+        url = 'https://k.mjh.nz/.repository/'
 
         #Get list of all modified files
         changes = check_output("git status -s | awk '{if ($1 == \"M\") print $2}'", shell=True).decode('utf-8').strip()
@@ -251,7 +251,8 @@ def do_cmd(cmd):
 
         urls = []
         if 'repository.matthuisman/repository.matthuisman-latest.zip' in changes:
-            urls.append('http://k.mjh.nz/repository.matthuisman-latest.zip')
+            urls.append('https://k.mjh.nz/')
+            urls.append('https://k.mjh.nz/repository.matthuisman-latest.zip')
 
         for file in changes.split('\n'):
             file = os.path.join(url, file)
